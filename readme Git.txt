@@ -33,3 +33,15 @@ git branch <name_branch>
 
 7. Переключение на новую ветку
 git checkout name_branch
+
+8. Сливание веток. в master 
+git merge <branch_name>
+
+9. Связывание локального git с глобальным github
+git remote add origin git@github.com:rasylsatylganov/git_learn.git
+
+10. Отправить проект на удаленный github
+git push -u origin <branch_name>
+
+заливаем измнение в проекте
+git push
